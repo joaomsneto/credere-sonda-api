@@ -11,7 +11,6 @@ POST /sonda/posicao-inicial
 
 ##### Resposta
 * Código: 204
-* Conteúdo:`[]`
 
 #### Receber a posição atual da sonda
 
