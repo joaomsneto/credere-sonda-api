@@ -11,8 +11,8 @@
 |
 */
 
-$router->get('/sonda/docs', function() {
-    return view('api.index');
+$router->get('/', function(){
+    return redirect('https://github.com/joaomsneto/credere-sonda-api/blob/master/documentation.md');
 });
 $router->post('/sonda/posicao-inicial', 'SondaController@irParaPosicaoInicial');
 $router->get('/sonda', 'SondaController@posicaoAtual');

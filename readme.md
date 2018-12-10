@@ -14,3 +14,5 @@ Abra um terminal/console, navegue até a pasta desta aplicação e execute o seg
 ```
 php -S localhost:8989 -t public
 ```
+
+Após isso, sua aplicação e os respectivos endpoints que podem ser encontrados na documentação acima citada estarão disponíveis no endereço `http://localhost:8989`
